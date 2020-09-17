@@ -209,9 +209,9 @@ var s = function (p) {
 
 
   p.setup = function () {
-    p.createCanvas(p.windowWidth, p.windowHeight);
+    p.createCanvas(p.displayWidth, p.displayWidth);
     p.frameRate(60);
-	  sYellowtail = new SYellowtail(p, p.windowWidth, p.windowHeight);
+	  sYellowtail = new SYellowtail(p, p.displayWidth, p.displayHeight);
   }
 
   p.draw = function () {
