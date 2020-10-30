@@ -121,6 +121,8 @@ SYellowtail.prototype.renderGesture = function (gesture, w, h) {
         xpts = poly.xpoints;
         ypts = poly.ypoints;
 
+	// Fill in the color of the rain:
+	p.fill (45,50,144, gesture.path[i].p * 255);
 
         p.vertex(xpts[0], ypts[0]);
         p.vertex(xpts[1], ypts[1]);
