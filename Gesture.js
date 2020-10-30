@@ -2,7 +2,7 @@ function Gesture (mw, mh) {
 	this.damp = 5.0;
 	this.dampInv = 1.0 / this.damp;
 	this.damp1 = this.damp - 1;
-	this.INIT_TH = 20;
+	this.INIT_TH = 6;
 	this.thickness = this.INIT_TH;
 
 	this.w = mw;
